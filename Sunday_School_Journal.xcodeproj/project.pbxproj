@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BF32AAB276D402300EF8564 /* Sunday_School_JournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF32AAA276D402300EF8564 /* Sunday_School_JournalApp.swift */; };
+		3BF32AAD276D402300EF8564 /* ChildrenList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF32AAC276D402300EF8564 /* ChildrenList.swift */; };
+		3BF32AAF276D402300EF8564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF32AAE276D402300EF8564 /* Assets.xcassets */; };
+		3BF32AB2276D402300EF8564 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF32AB1276D402300EF8564 /* Preview Assets.xcassets */; };
+		3BF32ABC276D450B00EF8564 /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF32ABB276D450B00EF8564 /* Child.swift */; };
+		3BF32ABE276D482200EF8564 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF32ABD276D482200EF8564 /* Group.swift */; };
+		3BF9E485276FF1BD00912501 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9E484276FF1BD00912501 /* Teacher.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BF32AA7276D402300EF8564 /* Sunday_School_Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunday_School_Journal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF32AAA276D402300EF8564 /* Sunday_School_JournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunday_School_JournalApp.swift; sourceTree = "<group>"; };
+		3BF32AAC276D402300EF8564 /* ChildrenList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenList.swift; sourceTree = "<group>"; };
+		3BF32AAE276D402300EF8564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BF32AB1276D402300EF8564 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BF32AB3276D402300EF8564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BF32ABB276D450B00EF8564 /* Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
+		3BF32ABD276D482200EF8564 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		3BF9E484276FF1BD00912501 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BF32AA4276D402300EF8564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BF32A9E276D402300EF8564 = {
+			isa = PBXGroup;
+			children = (
+				3BF32AA9276D402300EF8564 /* Sunday_School_Journal */,
+				3BF32AA8276D402300EF8564 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BF32AA8276D402300EF8564 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BF32AA7276D402300EF8564 /* Sunday_School_Journal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BF32AA9276D402300EF8564 /* Sunday_School_Journal */ = {
+			isa = PBXGroup;
+			children = (
+				3BF32AAA276D402300EF8564 /* Sunday_School_JournalApp.swift */,
+				3BF32AAC276D402300EF8564 /* ChildrenList.swift */,
+				3BF32ABA276D447300EF8564 /* Views */,
+				3BF32AB9276D445F00EF8564 /* Models */,
+				3BF32AAE276D402300EF8564 /* Assets.xcassets */,
+				3BF32AB3276D402300EF8564 /* Info.plist */,
+				3BF32AB0276D402300EF8564 /* Preview Content */,
+			);
+			path = Sunday_School_Journal;
+			sourceTree = "<group>";
+		};
+		3BF32AB0276D402300EF8564 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3BF32AB1276D402300EF8564 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BF32AB9276D445F00EF8564 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3BF32ABB276D450B00EF8564 /* Child.swift */,
+				3BF32ABD276D482200EF8564 /* Group.swift */,
+				3BF9E484276FF1BD00912501 /* Teacher.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3BF32ABA276D447300EF8564 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BF32AA6276D402300EF8564 /* Sunday_School_Journal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BF32AB6276D402300EF8564 /* Build configuration list for PBXNativeTarget "Sunday_School_Journal" */;
+			buildPhases = (
+				3BF32AA3276D402300EF8564 /* Sources */,
+				3BF32AA4276D402300EF8564 /* Frameworks */,
+				3BF32AA5276D402300EF8564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sunday_School_Journal;
+			productName = Sunday_School_Journal;
+			productReference = 3BF32AA7276D402300EF8564 /* Sunday_School_Journal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BF32A9F276D402300EF8564 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3BF32AA6276D402300EF8564 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 3BF32AA2276D402300EF8564 /* Build configuration list for PBXProject "Sunday_School_Journal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BF32A9E276D402300EF8564;
+			productRefGroup = 3BF32AA8276D402300EF8564 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BF32AA6276D402300EF8564 /* Sunday_School_Journal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BF32AA5276D402300EF8564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF32AB2276D402300EF8564 /* Preview Assets.xcassets in Resources */,
+				3BF32AAF276D402300EF8564 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BF32AA3276D402300EF8564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF32AAD276D402300EF8564 /* ChildrenList.swift in Sources */,
+				3BF9E485276FF1BD00912501 /* Teacher.swift in Sources */,
+				3BF32AAB276D402300EF8564 /* Sunday_School_JournalApp.swift in Sources */,
+				3BF32ABC276D450B00EF8564 /* Child.swift in Sources */,
+				3BF32ABE276D482200EF8564 /* Group.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3BF32AB4276D402300EF8564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BF32AB5276D402300EF8564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BF32AB7276D402300EF8564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sunday_School_Journal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Sunday_School_Journal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Denysiuk.Sunday-School-Journal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BF32AB8276D402300EF8564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sunday_School_Journal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Sunday_School_Journal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Denysiuk.Sunday-School-Journal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BF32AA2276D402300EF8564 /* Build configuration list for PBXProject "Sunday_School_Journal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF32AB4276D402300EF8564 /* Debug */,
+				3BF32AB5276D402300EF8564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BF32AB6276D402300EF8564 /* Build configuration list for PBXNativeTarget "Sunday_School_Journal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF32AB7276D402300EF8564 /* Debug */,
+				3BF32AB8276D402300EF8564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BF32A9F276D402300EF8564 /* Project object */;
+}
